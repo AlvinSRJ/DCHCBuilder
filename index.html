@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DC Heroes Character Builder</title>
+	<link rel="stylesheet" type="text/css" href="builder.css">
+	<script src="builder.js" type="text/javascript"></script>
+</head>
+<body onload="loadTab();">
+
+	<div class="sheetBd">
+
+		<h2>DC Character Builder by Alvin</h2>
+		<p>Click on the x button in the top right corner to close the current tab:</p>
+
+		<div class="tab">
+	  		<button class="tablinks" onclick="openTab(event, 'Attributes')" id="defaultOpen">Attributes</button>
+	  		<button class="tablinks" onclick="openTab(event, 'Powers')">Powers</button>
+	  		<button class="tablinks" onclick="openTab(event, 'Skills')">Skills</button>
+	  		<button class="tablinks" onclick="openTab(event, 'Advantages')">Advantages</button>
+	  		<button class="tablinks" onclick="openTab(event, 'Drawbacks')">Drawbacks</button>
+		</div>	
+
+		<form id="character">
+
+			<div id="Attributes" class="tabcontent">
+			  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+			  <h3>Attributes</h3>
+			  <p>London is the capital city of England.</p>
+			</div>
+
+			<div id="Powers" class="tabcontent">
+			  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+			  <h3>Powers</h3>
+			  <p>Paris is the capital of France.</p> 
+			</div>
+
+			<div id="Skills" class="tabcontent">
+			  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+			  <h3>Skills</h3>
+			  <p>Tokyo is the capital of Japan.</p>
+			</div>
+			
+			<div id="Advantages" class="tabcontent">
+			  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+			  <h3>Advantages</h3>
+			  <p>Tokyo is the capital of Japan.</p>
+			</div>
+
+			<div id="Drawbacks" class="tabcontent">
+			  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+			  <h3>Drawbacks</h3>
+			  <p>Tokyo is the capital of Japan.</p>
+			</div>						
+
+			
+		</form>
+	</div>
+
+</body>
+</html>
